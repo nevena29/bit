@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+h1{
+    color: red;
+    text-align: center;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 70px;
+    
+}
+.titles{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding:  30px;    
+}
+.titles:hover{
+    background-color: red;
+}
+table{
+    width: 1200px;
+    margin: 0px auto;
+    border-collapse: collapse;
+}
+img{
+    height: 100px;
+    width: 60px;
+}
+
+td{
+    padding: 50px 0px;
+
+}
+.grey-color{
+    background-color: rgb(199, 190, 190);
+}
+.image-cell {
+    text-align: center;
+    
+    
+}
+tr:hover{
+   background-color: orange;
+}
+
+

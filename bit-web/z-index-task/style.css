@@ -1,0 +1,57 @@
+.box {
+    width: 300px;
+    height: 300px;
+}
+
+.red {
+    background-color: rgb(221, 26, 26);
+}
+
+.yellow {
+    background-color: rgb(255, 196, 0);
+}
+
+.black {
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.yellow2 {
+    position:relative;
+    bottom: 150px;
+    left:150px;
+    z-index: 1;
+}
+
+.black2 {
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+    z-index:2;
+
+}
+.red3{
+    position:absolute;
+    right:100px;
+    z-index:3;
+
+}
+.yellow3{
+    position: absolute;
+    right:250px;
+    top: 0px;
+    z-index:2;
+    
+}
+
+.black3 {
+    position: absolute;
+    right: 400px;
+    bottom: 0px;
+}
+body{
+    background-color:rgb(43, 144, 226);
+}
+.container{
+    position:relative;
+}
