@@ -1,0 +1,159 @@
+*{
+    margin: 0 px;
+    padding: 0px;
+}
+main{
+    margin: 0 auto;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    position:relative;
+  
+}
+header > img{
+    width: 100%;
+}
+.naslov{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom:0;
+    right:0;
+}
+#table{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#table-cell{
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+h1{
+    margin:0px;
+    color:white;;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: middle;
+    
+
+    
+}
+button{
+    background-color: #4d79ff;
+    border-radius: 20px;
+    padding:10px 25px 10px 25px;
+    margin-top:30px;
+    border:none;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+section{
+    width: 100%;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+}
+section > p > span{
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    border-left: 3px solid gray;
+    color: orange;
+    padding-left: 10px;
+    
+}
+.lista{
+    background-color: #99b3ff;
+    text-align:center;
+    margin: 8px;
+   
+    
+}
+.lista1{
+    text-decoration:none;
+    color:white;
+    padding: 20px;
+    font-weight: bold; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+div > ul > a{
+    text-decoration: none;
+    width: 100%;
+}
+#container-box{
+    width: 100%;
+    text-align: center;
+    
+}
+#whoweare {
+    color: black;
+    margin-top: 80px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    color: #99b3ff;
+    float: left;
+    margin-left: 10%;
+}
+#container-box > p{
+    clear: left;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+.fa{
+    color: orange;
+}
+.lista2, .lista3{
+    margin-left:10%;
+
+}
+li{
+    list-style-type: none;
+    color: gray;
+    padding-bottom: 25px;
+}
+#slika_zgrade{
+    width: 100%;
+
+}
+#bela_zgrada{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+
+}
+#container-box2{
+    width: 100%;
+    text-align: center;
+}
+#container-box2 > p{
+    clear: left;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+.whatpeoplesay{
+    width: 100%;
+}
+.whatpeoplesay > h3{
+    color: black;
+    margin-top: 80px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
