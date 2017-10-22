@@ -190,16 +190,12 @@ padding:0px 10px 20px 10px;
 margin-top: 20px;
 }
 
-.what-people-say h3{
-    color: black;
-    margin:0px auto;
-    font-family: 'Open Sans', sans-serif;
-    font-size:20px;
-}
 
 .people-box-1>p{
     font-size: 15px;
     display:inline-block;
+    position: relative;
+    top: 10px;
     color:black;
 }
 
@@ -213,53 +209,77 @@ margin-top: 20px;
     display:inline-block;
     vertical-align: middle;
      position:relative;
+     border: 2px solid white;
      
 }
 .people-p{
     display:inline;
     font-size:15px;
-    color:white;
-    
-    
+    color:white;    
 }
-.what-people-say{
-    padding:30px;
-    margin-bottom:20px;
 
-}
+
 .GetInTouch{
     width: 100%;
     margin: 0px auto;
 }
 
+#contact-div{
+    width: 100%;
+    text-align: center;
+    padding:10px 0px 10px 0px;
+   
+    
+}
+#contact-div p{
+    color:white;
+    font-size: 20px;
+    
 
-    .contact-box{
-        width:100%;
-        margin:0px auto;
-        background-color:green;
-        box-sizing: border-box;
-    }
-    .contact-us{
-        margin-bottom: 20px;
-        padding:20px;
-    }
-    .contact-us h3{
-        color: black;
-        font-size: 20px;
-    }
-   .contact-box1{
-       margin:0px auto;
+}
+.green-div{
+    background-color:rgb(58, 221, 154);
+   
+    
+}
+.pink-div{
+    background-color:rgb(252, 82, 130);
+    
+    
+    
+}
+.blue-div{
+    background-color:#3333CC;
+}
+.plavi-div{
+    background-color:#33CCCC;
+    
+}
+.sarena-kucica{
+    width:300px;
+    height:300px;
+}
+.mapa{
+    width:100%;
+    margin:0px auto;
+}
+iframe{
+    width: 414px;
+    height:324px;
+}
+.forma{
+    width:80%;
+    margin:0px auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+input{
+    width:80%;
+    text-align: center;
+
+}
+
       
-       
-   }
-   .contact-box1 p{
-       color: white;
-       font-size: 20px;
-       display: inline;
-       margin: 0px auto;
-       
-       
-   }
      
  
 
