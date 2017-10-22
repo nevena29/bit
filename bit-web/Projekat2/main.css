@@ -45,7 +45,7 @@ header > img{
 
 h1{
     margin:0px;
-    color:white;;
+    color:black;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     vertical-align: middle;
@@ -176,39 +176,92 @@ li{
     margin-right: 10%;
     text-align: left;
 }
-.whatpeoplesay{
-    width: 100%;
-}
-.whatpeoplesay > h3{
-    color: black;
-    margin-top: 80px;
-    padding-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
-}
-.wiliamson-box{
-    width:100%;
-    margin:0px auto;
-    background-color:#99b3ff;
-    text-align: center;
+.people{
+    width: 80%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding:20px;
     
 }
+.people-box{
+background-color: #99b3ff;
+box-sizing: border-box;
+padding:0px 10px 20px 10px;
+margin-top: 20px;
+}
+
+.what-people-say h3{
+    color: black;
+    margin:0px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+}
+
+.people-box-1>p{
+    font-size: 15px;
+    display:inline-block;
+    color:black;
+}
+
+
 .img-w{
     width:50px;
     height:50px;
     border-radius:25px;
-    padding-left: 20px;
-    float: left;
-}
-.slika-wiliamsona>p{
-    font-size: 15px;
-
-
-}
- .wiliamson-box>p{
-     font-size:20px;
-
+    margin-left: 20px;
+    margin-top:20px;
+    display:inline-block;
+    vertical-align: middle;
+     position:relative;
      
- }
+}
+.people-p{
+    display:inline;
+    font-size:15px;
+    color:white;
+    
+    
+}
+.what-people-say{
+    padding:30px;
+    margin-bottom:20px;
+
+}
+.GetInTouch{
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+    .contact-box{
+        width:100%;
+        margin:0px auto;
+        background-color:green;
+        box-sizing: border-box;
+    }
+    .contact-us{
+        margin-bottom: 20px;
+        padding:20px;
+    }
+    .contact-us h3{
+        color: black;
+        font-size: 20px;
+    }
+   .contact-box1{
+       margin:0px auto;
+      
+       
+   }
+   .contact-box1 p{
+       color: white;
+       font-size: 20px;
+       display: inline;
+       margin: 0px auto;
+       
+       
+   }
+     
+ 
 
 /*@media only screen and (min-width: 768px) {
     .lista {
