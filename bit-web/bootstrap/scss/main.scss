@@ -1,32 +1,37 @@
 @import 'variables';
 @import 'navbar';
-
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     font-family: $main-font;
 }
+
 .wrapper {
     width: 100%;
 }
+
 .blueish {
     background-color: $blueish;
 }
+
 .greenish {
     background-color: $greenish;
 }
+
 .c-align {
     text-align: center;
 }
-.banner{
-    color:white;
-    h1{
+
+.banner {
+    color: white;
+    h1 {
         font-weight: 900;
-        font-size:1.5em;
+        font-size: 1.5em;
     }
-    img{
-        padding:15px;
+    img {
+        padding: 15px;
         max-width: 100%;
     }
     .divider {
@@ -34,7 +39,7 @@ body {
             display: inline-block;
             border-top: 4px solid #fff;
             width: 15%;
-            margin:0;
+            margin: 0;
             padding: 0;
             vertical-align: middle;
             margin-bottom: 8px;
@@ -47,17 +52,17 @@ body {
 }
 
 .portfolio {
-        margin-bottom: 80px;
+    margin-bottom: 80px;
     h2 {
         font-weight: 900;
-        margin-top:50px;
+        margin-top: 50px;
     }
     .divider-blue {
         hr {
             display: inline-block;
             border-top: 4px solid $blueish;
             width: 15%;
-            margin:0;
+            margin: 0;
             padding: 0;
             vertical-align: middle;
             margin-bottom: 8px;
@@ -71,28 +76,28 @@ body {
         max-width: 100%;
         padding: 5px 20px;
     }
-
 }
-.about{
+
+.about {
     padding: 50px 0;
     font-weight: 700;
-    h2{
+    h2 {
         font-size: 3em;
         font-weight: 900;
     }
-    p{
-        font-size:1.2em;
+    p {
+        font-size: 1.2em;
         line-height: 1.5;
         text-align: left;
     }
-    .divider{
+    .divider {
         margin-bottom: 20px;
     }
     button.btn-light {
         background-color: transparent;
         color: $white;
         -webkit-appearance: none;
-        &:active{
+        &:active {
             background-color: transparent !important;
             color: $blueish !important;
             box-shadow: none !important;
@@ -103,14 +108,14 @@ body {
 .contact {
     h2 {
         font-weight: 900;
-        margin-top:50px;
+        margin-top: 50px;
     }
     .divider-blue {
         hr {
             display: inline-block;
             border-top: 4px solid $blueish;
             width: 15%;
-            margin:0;
+            margin: 0;
             padding: 0;
             vertical-align: middle;
             margin-bottom: 8px;
@@ -123,14 +128,15 @@ body {
     form {
         width: 100%;
         margin: 50px 0;
-        input, textarea {
+        input,
+        textarea {
             width: 100%;
             padding: 20px 0;
             border: none;
             border-bottom: 2px solid rgba($greyish, 0.2);
             font-weight: 900;
         }
-        ::placeholder{
+         ::placeholder {
             color: rgba($greyish, 0.5);
             font-size: 1.3em;
         }
@@ -162,6 +168,14 @@ footer {
         li {
             display: inline-block;
             color: $white;
-        }
+            border: 1px solid white;
+            padding: 8px;
+        border-radius: 50%;   
+          
+       }
+    }
+    #copyright{
+        margin-top:60px;
     }
 }
+
