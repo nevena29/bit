@@ -1,0 +1,11 @@
+.container{
+    padding: 20px 100px;
+    background: lightcoral;
+    border: firebrick 2px double;
+    text-align: center;
+}
+
+input, select{
+    display: block;
+    margin: 10px auto;
+}
