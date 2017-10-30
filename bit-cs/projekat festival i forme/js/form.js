@@ -13,6 +13,12 @@ function createMovies() {
     var length = lengthElement.value;
     var genre = genreOptionElement.value;
 
+    if (!title || !length || genre === "none") {
+        var error = document.getElementById("error");
+        error.textContent ="Please enter all info!";
+    }  
+    errorElement.textContent="";
+
     var movie = new Movie(title, length, genre);
     // console.log(movie);
     movies.push(movie);
@@ -30,8 +36,16 @@ function createMovies() {
     var listOfMovies = document.getElementById("listOfMovies");
     listOfMovies.innerHTML = movieListHTML;
 
-    if (!title || !length || genre === "none") {
-        var error = document.getElementById("error");
-        error.textContent ="Please enter all info!";
-    }
+      
+}
+var programs=[];
+
+function createProgram(dateStr) {
+
+var datumElement=document.getElementById("pDate");
+var dateStr=datumElement.value;
+
+var date = new Date(dateStr);
+var program = new Program(date)
+    return program;
 }
