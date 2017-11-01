@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<0>
+		<name>Ime festivala</name>
+		<programs>
+			<date>112412</date>
+			<movies>
+				<title>Ime filma</title>
+				<length>123</length>
+				<isPlayed>false</isPlayed>
+			</movies>
+			<movies>
+				<title>Ime filma2</title>
+				<length>1233</length>
+				<isPlayed>false</isPlayed>
+			</movies>
+			<movies>
+				<title>Ime filma3</title>
+				<length>12345</length>
+				<isPlayed>false</isPlayed>
+			</movies>
+		</programs>
+	</0>
+	
+
+    

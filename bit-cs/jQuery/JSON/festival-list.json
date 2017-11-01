@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Ime festivala",
+        "programs": [
+            {
+                "date": 112412,
+                "movies": [
+                    {
+                        "title": "Ime filma",
+                        "length": 123,
+                        "isPlayed": false
+                    },
+                    {
+                        "title": "Ime filma2",
+                        "length": 1233,
+                        "isPlayed": false
+                    },
+                    {
+                        "title": "Ime filma3",
+                        "length": 12345,
+                        "isPlayed": false
+                    }
+                ]
+            }
+        ]
+    }
+]
+//JASON metoda kreiranja festivala filmova
+//http://jsonviewer.stack.hu/ - proveravanje validnosti JSON koda
+// json to xml convertor  ***http://www.utilities-online.info/xmltojson/#.WfnQX2hSyUk
