@@ -11,7 +11,7 @@ $(document).on("keypress", function (event) {
     }
 })
 $(document).on("click", "a", function () {
-    var value = $(this).attr("data-show-id")
+    var value = $(this).attr("data-show-id");
     localStorage.setItem("myShow", value);
     window.location.href = "single.html";
 

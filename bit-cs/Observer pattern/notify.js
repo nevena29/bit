@@ -10,9 +10,6 @@ var observer = function (name) {
     }
 }
 
-
-
-
 var subject = function () {
     var observers = [];
     var addObserver = function (observer) {
@@ -36,7 +33,7 @@ var subject = function () {
         check:check
     }
 }
-var s1=subject();
+var s1= subject();
 var obs1=observer("lampica1");
 var obs2=observer("lampica2");
 s1.addObserver(obs1);
