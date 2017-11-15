@@ -16,6 +16,7 @@
 
 hr {
     width: 75%;
+    color:black;
 }
 
 ul > li {
@@ -40,7 +41,7 @@ a {
 }
 
 .border {
-    border: 2px solid black;
+    border: 2px solid white !important;
     border-radius: 15px;
     padding: 15px;
     height: 100%;
@@ -49,8 +50,25 @@ a {
 #timer {
     position: absolute;
     right: 17px;
+    
+    
+    
 }
 
 h3{
     color:purple;
+    text-transform:uppercase;
+    
+}
+#app{
+    background-color: #96858f;
+}
+h2{
+    text-align: center;
+}
+.id{
+   font-weight: bold;
+   background-color: rgba(75, 196, 136, 0.411);
+   width: 2em;
+   border-radius: 30%;
 }
