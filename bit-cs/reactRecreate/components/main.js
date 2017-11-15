@@ -2,6 +2,7 @@ import React from "react";
 import Post from "./post";
 import Authors from "./authors";
 import About from "./about";
+import {Link} from 'react-router-dom';
 
 class Main extends React.Component {
     constructor(props) {
@@ -17,6 +18,7 @@ class Main extends React.Component {
 
     render() {
         const posts = this.state.posts;
+       
 
         if (posts.length === 0) {
             return <p>No posts</p>
@@ -24,9 +26,12 @@ class Main extends React.Component {
 
         return (
             <div>
-                {posts.map((item) => {
-                    return <Post post={item} key={item.id} />
+               {posts.map((item) => {
+                    return <Post post={item} key={item.id} />                
                 })}
+                
+
+
             </div>
         )
     }

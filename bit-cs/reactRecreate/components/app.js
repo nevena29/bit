@@ -5,6 +5,8 @@ import Main from './main';
 import Footer from './footer';
 import Authors from './authors';
 import About from './about';
+import SinglePost from "./singlepost";
+
 
 class App extends React.Component {
     // constructor(props) {
@@ -20,6 +22,8 @@ class App extends React.Component {
                         <Route exact path='/' component={Main} />
                         <Route path='/authors' component={Authors} />
                         <Route path='/about' component={About} />
+                         <Route path='/singlepost/:id' component={SinglePost} />
+
                     </Switch>
                 </div>
                 <Footer />
