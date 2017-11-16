@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 
 const Post = (props) => {
     return (
+        // da je samo /post to bi bio exact path,
     <Link to={"/singlepost/" + props.post.id}>
         <div className="col-12 posts">
               

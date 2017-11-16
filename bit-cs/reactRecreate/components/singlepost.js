@@ -1,5 +1,6 @@
 import React from "react";
 
+
 // class ListOfPosts extends React.Component {
 //     constructor(props) {
 //         super(props);
@@ -41,6 +42,7 @@ class SinglePost extends React.Component {
 
                 this.setState({ data })
             })
+            // sad kad napravis novi fetch,to je novi thread, ulancavaju se fetch-evi,
 
 
 
