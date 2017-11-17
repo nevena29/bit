@@ -3,7 +3,7 @@ import Timer from "./timer";
 import {Link} from 'react-router-dom';
 
 const handleTimeChange=function(){
-    console.log("tick....")
+    console.log("tick...." )
 }
 
 

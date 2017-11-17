@@ -16,6 +16,7 @@ class Main extends React.Component {
         fetch('https://jsonplaceholder.typicode.com/posts')
             .then(response => response.json())
             .then(posts => this.setState({ posts:posts,
+
             allPosts:posts }))
     }
     searchHandler(searchString){
@@ -31,6 +32,7 @@ class Main extends React.Component {
         }
         let filteredList=currentList.filter((item)=>{
             return item.title.includes(searchString);
+            // ako vrati true bice prekopiran u filter listu
         });
         this.setState({
             posts:filteredList
