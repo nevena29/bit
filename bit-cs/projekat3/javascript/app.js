@@ -69,13 +69,22 @@ function popularShows() {
             var name = jsonMsg[i].name;
             var id = jsonMsg[i].id;
             var image = jsonMsg[i].image.original;
-            output.append(`
-          <div class="col-12 col-md-6 col-lg-4">
-              <a class="show-item" data-show-id="` + id + `" href="#">
-                  <img src="` + image + `">
-                  <span>` + name + `</span>
-              </a>
-          </div>`);
+            // var div=$("<div>");
+            // var selectedImage=$("<img>");
+            // selectedImage.attr("src", image);
+            // output.append(div);
+            // div.append(selectedImage);
+
+            output.append(
+
+            
+          `<div class="col-12 col-md-6 col-lg-4">
+               <a class="show-item" data-show-id="` + id + `" href="#">
+                  <img src=  ${image}  >
+                   <span>` + name + `</span>
+               </a>
+           </div>`
+         );
 
 
         }

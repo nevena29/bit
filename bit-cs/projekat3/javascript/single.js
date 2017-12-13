@@ -33,19 +33,34 @@
                 <div class="col-12 col-md-6 col-lg-4">
                         <img src="` + image + `">
                 </div>`);
-                var liSeasons;
-                for(var i=0;i<jsonMsg._embedded.seasons.length;i++){
-                    liSeasons+=`<li>` + jsonMsg._embedded.seasons[i].premiereDate+` - `+ jsonMsg._embedded.seasons[i].endDate+ `</li>`;
-                }
+
+        var liSeasons;
+        for (var i = 0; i < jsonMsg._embedded.seasons.length; i++) {
+            liSeasons += `<li>` + jsonMsg._embedded.seasons[i].premiereDate + ` - ` + jsonMsg._embedded.seasons[i].endDate + `</li>`;
+        }
         output.append(`
                 <div class="col-12 col-md-6">
-                        <h3>Seasons (`+jsonMsg._embedded.seasons.length +`)</h3><ul>`+ liSeasons+ `</ul>
+                        <h3>Seasons (`+ jsonMsg._embedded.seasons.length + `)</h3><ul>` + liSeasons + `</ul>
                 </div>`);
+
         output.append(`
     <div class="col-12 ">
            <h3>Show Details</h3>
           ` + jsonMsg.summary + `
     </div>`);
+        var liCast;
+        for(var i = 0; i < jsonMsg._embedded.cast.length; i++){
+           
+            liCast+= `<li>`+ jsonMsg._embedded.cast[i].person.name + `</li>`;
+        }
+        output.append(`<div class="col-12 col-md-6">
+                <h3> Cast (`+ jsonMsg._embedded.cast.length+`)</h3> <ul> ` + liCast + `</ul>
+                </div>`
+        );
+
+            
+                    
+    
     })
 
 
